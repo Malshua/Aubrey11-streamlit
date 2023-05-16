@@ -95,9 +95,11 @@ def main():
        [Linkedin](https://www.linkedin.com/in/avi-kumar-talaviya-739153147/) |
        [Kaggle](https://www.kaggle.com/avikumart) 
        """)
-       a,b,c = st.columns([0.2,0.6,0.2])
+a,b,c = st.columns([0.2,0.6,0.2])
 with b:
  st.image("banner-picture.jpeg", use_column_width=True)
+
+
 # description about the project and code files       
 st.subheader("🧾Description:")
 st.text("""This data set is collected from Addis Ababa Sub-city police departments for master's research work. 
